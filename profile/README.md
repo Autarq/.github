@@ -1,145 +1,101 @@
 <!--
-SPDX-FileCopyrightText: 2026 Euro-Office contributors
-SPDX-License-Identifier: AGPL
+SPDX-FileCopyrightText: 2026 MWAY DIGITAL GmbH
+SPDX-License-Identifier: CC-BY-4.0
 -->
 
-[![License](https://img.shields.io/badge/License-GNU%20AGPL%20V3-green.svg?style=flat)](https://www.gnu.org/licenses/agpl-3.0.en.html)
+<p align="center">
+  <a href="https://autarq.now/">
+    <img src="https://autarq.now/autarq-logo.svg" alt="AUTARQ" width="420">
+  </a>
+</p>
 
-# Euro-Office
+<h1 align="center">Sovereign agentic workplace for Europe</h1>
 
-**Your sovereign office**
+<p align="center">
+  AUTARQ builds a managed, sovereign alternative to Microsoft 365 and Google Workspace:
+  openDesk, OneAI, identity, private networking and extensions as one integrated platform.
+</p>
 
-![Euro-Office Document](https://raw.githubusercontent.com/Euro-Office/.github/refs/heads/main/screenshots/screenshot.png)
+<p align="center">
+  <a href="https://autarq.now/"><strong>Website</strong></a>
+  ·
+  <a href="mailto:hello@autarq.now?subject=AUTARQ%20Pilot"><strong>Start a pilot</strong></a>
+  ·
+  <a href="https://www.linkedin.com/company/autarq-now/"><strong>LinkedIn</strong></a>
+  ·
+  <a href="mailto:hello@autarq.now"><strong>hello@autarq.now</strong></a>
+</p>
 
-## What is Euro-Office?
+<p align="center">
+  <img alt="EU hosting" src="https://img.shields.io/badge/Hosting-Germany%20%2F%20EU-163328?style=flat-square">
+  <img alt="Sovereign AI" src="https://img.shields.io/badge/AI-OneAI-cdff5a?style=flat-square&labelColor=163328&color=cdff5a">
+  <img alt="Identity" src="https://img.shields.io/badge/IAM-Nubus-163328?style=flat-square">
+  <img alt="Open Source" src="https://img.shields.io/badge/Open%20Source-AGPL%20%2B%20OSS-163328?style=flat-square">
+</p>
 
-Euro-Office provides a truly open, transparent, and sovereign solution for collaborative document editing.
+---
 
-Euro-Office is not designed for stand-alone use, but developed to be a web based and integrated in another product that handles documents, for example a file sharing solution, an online wiki, a project management tool and so on.
+## What We Build
 
-### Key features
+AUTARQ Desk is a fully managed sovereign workplace for organizations in Europe.
+It combines collaboration, documents, mail, calendars, projects, knowledge,
+identity and AI agents in one operating model.
 
-With Euro-Office you can view, edit and work with others on spreadsheets, documents, presentations and even PDF files. It has a nice web interface and we are also working on mobile and desktop apps.
+| Layer | What it provides |
+| --- | --- |
+| **openDesk workplace** | Files, collaboration, mail, calendar, contacts, projects and knowledge. |
+| **OneAI** | Multi-model AI access, agents and knowledge workflows on EU infrastructure. |
+| **Nubus IAM** | Central identity and access management across all services. |
+| **Private network** | Optional encrypted access and private service networking. |
+| **Extensions** | Relution MDM, Zammad, additional storage, custom Helm services and more. |
 
-* Work with DOCX, PPTX, XLSX, PDF, ODT, ODS, ODP, TXT and many other file formats
-* Edit documents, spreadsheets and presentation files with others in real time
-* Save the document back to the application you used to open it or download in various file formats
+## Why It Matters
 
-## About the community
+Europe has strong open-source building blocks. What organizations need is a
+coherent, operated platform with shared identity, networking, service lifecycle
+and AI integration.
 
-Euro-Office is open source and developed in public by a community of individuals and organizations. We welcome contributions from anyone, including individuals, companies, public organizations and non-profits. We encourage anyone who cares about free and open source, modern office technology to get involved! Our goal is to have as few barriers as possible to contribution.
+AUTARQ is built for:
 
-Current contributors and supporters include:
+- **Public administration** with data sovereignty, NIS2 and auditability needs.
+- **Schools and education** that need collaboration, device management and AI
+  under European data protection requirements.
+- **SMEs and mid-market teams** that want to reduce SaaS lock-in while keeping
+  day-to-day productivity simple.
+- **MSPs and system integrators** looking for a managed sovereign workplace stack.
 
-* Abilian
-* BTactic
-* EuroStack
-* IONOS
-* Nextcloud
-* Office.EU
-* Open-Xchange
-* OpenProject
-* Proton
-* Soverin
-* Tuta
-* XWiki
-* **Want to see your organization here?** We welcome new contributors and supporters! Reach out to us.
+## AUTARQ Office
 
-### Euro-Office liberates the ONLYOFFICE code base
+This organization also hosts our AUTARQ Office work: public forks of the
+Euro-Office desktop editor stack with AUTARQ branding and reproducible build
+pipelines for macOS, Linux and Windows packaging.
 
-Euro-Office is based on the ONLYOFFICE Open Source, an AGPL codebase. This code base is being extensively reviewed and cleaned up, with the goal of making it easy to build and contribute to.
-Why did we resort to a fork, rather than collaborate? Of course, forking should be a last resort. Unfortunately, open collaboration with ONLYOFFICE was not possible, for a number of reasons:
-* Contributing is impossible or greatly discouraged. ONLYOFFICE typically does not review or accept pull requests. Build instructions are unreliable, outdated or just plain broken.
-* The company regularly makes controversial decisions like closing off features in the mobile apps like mobile editing, and the removal of an administrator panel.
-* Lacking transparency. Commit messages, when visible, often just refer to an issue number in an internal issue tracker. There are quite a number of binary blobs and compiled or obfuscated code blobs. Most internal code comments are Russian which makes is hard to work with.
-* The mobile apps are not really open source but just wrappers. Example. The apps have extensive proprietary sections which will need to be re-implemented. Work on this is underway.
-* ONLYOFFICE is a Russian company (despite many attempts to hide this), and nearly all developers reside in Russia. Open Source is a global effort, but current political situation makes collaboration hard and trust difficult to earn. Especially when development is not transparent and open. A lot of users and customers require software that is not potentially influenced or controlled by the Russian government.
+| Repository | Purpose |
+| --- | --- |
+| [`DesktopEditors`](https://github.com/Autarq/DesktopEditors) | AUTARQ Office desktop editor suite and build orchestration. |
+| [`desktop-apps`](https://github.com/Autarq/desktop-apps) | Native app shell, branding and platform packaging. |
+| [`DocumentServer`](https://github.com/Autarq/DocumentServer) | Server-side document editing components. |
+| [`web-apps`](https://github.com/Autarq/web-apps) | Editor web applications used by the desktop and server stacks. |
 
-### Code of conduct
-See our [Code of Conduct here.](https://github.com/Euro-Office/.github/blob/main/CODE_OF_CONDUCT.md)
+We keep upstream licensing and attribution intact. AUTARQ Office is a branded
+fork for our sovereign workplace work and does not grant rights to upstream
+Euro-Office, ONLYOFFICE or Ascensio trademarks.
 
-## Get involved
-Get involved! You can file issues, propose pull requests and more. We are looking forward to make the digital sovereign office space better than ever before!
+## Principles
 
-Check the [DocumentServer repository](https://github.com/Euro-Office/DocumentServer) on how to get started running and contributing to Euro-Office and see the [CONTRIBUTING.md](https://github.com/Euro-Office/DocumentServer/blob/main/README.md) there for information on the process.
+- **Sovereign by design:** data, identity and operations stay in Germany and Europe.
+- **Open source first:** build from auditable components and contribute changes back where possible.
+- **AI-native, not AI-bolted-on:** agents connect to identity, files, knowledge and workflows.
+- **Managed operations:** productized deployment, updates, support and service lifecycle.
+- **Modular adoption:** start with the base workplace, add capabilities when needed.
 
-### Governance
+## Contact
 
-We are in the process of setting up a transparent governance structure with a steering committee. In the mean time, we will follow the open source 'who codes, decides' model.
+**MWAY DIGITAL GmbH**<br>
+Daimlerstrasse 133<br>
+70372 Stuttgart, Germany
 
-* decisions are to be made by consensus by all members (based on full agreement and agree-to-disagree)
-* members are the members of the github project
-* regular contributors get added to the github project based on consensus of the existing members
-* these rules can be changed by a majority vote
-
-## Getting involved
-
-We welcome contributions from anyone. You do not need to be a project member to participate, as long as you follow the Code of Conduct.
-
-### Individuals
-
-* You can contribute by:
-  * Reporting bugs
-  * Suggesting features
-  * Submitting pull requests (PRs)
-    - For the process, see Contribution Process
-
-### Organizations
-
-Organizations can let employees contribute as individuals, or the organization itself contribute in a more structured way:
-
-* Reach out to the project maintainers to coordinate. Contact us at euro-office-team on the proton.me mail server.
-* Share:
-  * Who will be working on the project
-  * Which roadmap items or issues you want to take on
-  * Any new proposals you plan to introduce
-* We will:
-  * Provide feedback where needed
-  * Align on scope and direction (to avoid conflicts)
-  * And when agreed, add your organization to the list of supporters
-    - (for how we decide, see Governance)
-
-### Project membership
-
-You become a project member if:
-
-* You contribute consistently and significantly over time, think 3-6 PR's merged over a few months, and
-* Existing project members agree to add you
-
-Alternatively:
-
-* If your employer formally joins the project, designated contributors may be added as members.
-
-### Collaboration principles
-
-* The project is open by default
-* Contributions are guided by:
-  * Constructive discussion
-  * Rough consensus
-  * Code quality and maintainability
-
-### Learn more about Open Source
-
-If you are new to open source, these resources are useful:
-
-* https://opensource.guide/
-* https://opensource.guide/how-to-contribute/
-* https://www.firsttimersonly.com/
-* https://docs.github.com/en/get-started/quickstart/contributing-to-projects
-
-## FAQ
-* What is Euro-Office?
-    * An online office component for real-time collaborative editing of Office documents like DOCX, PPTX, XLSX as well as the ODF file formats ODS, ODT and ODP.
-    * It can be embedded in digital workplace or online productivity solutions like Proton, XWiki, OpenProject, Nextcloud Hub and others to edit documents.
-* How does Euro-Office compare to IONOS Workspace, office.eu, the Proton productivity suite, Nextcloud Hub or XWiki:
-    * Euro-Office is more of an integration component. It merely handles document editing itself. Storage, as well as navigation, permissions and sharing logic has to be offered by a platform it is integrated in, like Proton Docs, Nextcloud Hub or OpenProject.
-* Who started Euro-Office?
-    * Euro-Office is an initiative of a group of European companies who saw a need for a real open, sovereign online office suite that works well with the proprietary file formats of Microsoft. Initial contributors and supporters include IONOS, Nextcloud, Eurostack, XWiki, OpenProject, Soverin, Abilian, BTactic and others.
-* Why was a new office suite needed
-	* We saw a need for a more modern suite with a great MS compatibility and excellent desktop and mobile applications.
-* Why did you not work with libreoffice and collabora online?
-	* We believe open source is about collaboration and we look for opportunities for integration and collaboration with the LibreOffice community and companies like Collabora. There are already some ideas how to collaborate for example in the document converter.
-* Can I buy support or a subscription for Euro-Office?
-	* Not at the moment, but in the future some of the contributing companies might offer support subscriptions
-* Is Euro-Office just for Europeans? Isn't open source without borders?
-    * Open Source is an international movement, and we are definitely open to contributions by anyone, anywhere! All code will be judged on its merits, not on its origin, and receive equal review. And, of course, anyone is welcome to use Euro-Office in line with the provisions [in the AGPLv3 license!](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License)
+- Website: [autarq.now](https://autarq.now/)
+- Email: [hello@autarq.now](mailto:hello@autarq.now)
+- Pilot contact: [florian.braun@autarq.now](mailto:florian.braun@autarq.now)
+- LinkedIn: [AUTARQ](https://www.linkedin.com/company/autarq-now/)
