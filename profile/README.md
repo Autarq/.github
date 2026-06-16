@@ -43,9 +43,8 @@ identity and AI agents in one operating model.
 
 | Layer | What it provides |
 | --- | --- |
-| **openDesk workplace** | Files, collaboration, mail, calendar, contacts, projects and knowledge. |
+| **openDesk workplace** | Files, collaboration, mail, calendar, contacts, projects, knowledge and IAM. |
 | **OneAI** | Multi-model AI access, agents and knowledge workflows on EU infrastructure. |
-| **Nubus IAM** | Central identity and access management across all services. |
 | **Private network** | Optional encrypted access and private service networking. |
 | **Extensions** | Relution MDM, Zammad, additional storage, custom Helm services and more. |
 
@@ -91,11 +90,6 @@ Euro-Office, ONLYOFFICE or Ascensio trademarks.
 
 ## Contact
 
-**MWAY DIGITAL GmbH**<br>
-Daimlerstrasse 133<br>
-70372 Stuttgart, Germany
-
 - Website: [autarq.now](https://autarq.now/)
 - Email: [hello@autarq.now](mailto:hello@autarq.now)
-- Pilot contact: [florian.braun@autarq.now](mailto:florian.braun@autarq.now)
 - LinkedIn: [AUTARQ](https://www.linkedin.com/company/autarq-now/)
