@@ -13,7 +13,7 @@ SPDX-License-Identifier: CC-BY-4.0
 
 <p align="center">
   AUTARQ builds a managed, sovereign alternative to Microsoft 365 and Google Workspace:
-  openDesk, OneAI, identity, private networking and extensions as one integrated platform.
+  openDesk, Autarq/Chat, identity, private networking and extensions as one integrated platform.
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@ SPDX-License-Identifier: CC-BY-4.0
 
 <p align="center">
   <img alt="EU hosting" src="https://img.shields.io/badge/Hosting-Germany%20%2F%20EU-163328?style=flat-square">
-  <img alt="Sovereign AI" src="https://img.shields.io/badge/AI-OneAI-cdff5a?style=flat-square&labelColor=163328&color=cdff5a">
+  <img alt="Sovereign AI" src="https://img.shields.io/badge/AI-Autarq%2FChat-cdff5a?style=flat-square&labelColor=163328&color=cdff5a">
   <img alt="Identity" src="https://img.shields.io/badge/IAM-Nubus-163328?style=flat-square">
   <img alt="Open Source" src="https://img.shields.io/badge/Open%20Source-AGPL%20%2B%20OSS-163328?style=flat-square">
 </p>
@@ -44,7 +44,7 @@ identity and AI agents in one operating model.
 | Layer | What it provides |
 | --- | --- |
 | **openDesk workplace** | Files, collaboration, mail, calendar, contacts, projects, knowledge and IAM. |
-| **OneAI** | Multi-model AI access, agents and knowledge workflows on EU infrastructure. |
+| **Autarq/Chat** | Multi-model AI access, agents and knowledge workflows on EU infrastructure. |
 | **Private network** | Optional encrypted access and private service networking. |
 | **Extensions** | Relution MDM, Zammad, additional storage, custom Helm services and more. |
 
